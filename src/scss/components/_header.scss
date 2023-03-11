@@ -28,6 +28,25 @@
 
     p {
       color: #7b7b7b;
+
+      @media (max-width: 630px) {
+        display: none;
+  
+      }
     }
   }
+
+  .button {
+    @media (max-width: 540px) {
+
+
+      span:first-child {
+        display: none;
+      }
+
+      &__delimiter {
+        display: none;
+    }
+  }
+}
 }
